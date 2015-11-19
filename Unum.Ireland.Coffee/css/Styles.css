@@ -1,0 +1,128 @@
+﻿.nav-tabs > li >a {
+    color: #aaa;
+	outline-style: none;
+ }
+.nav-tabs > li > a:hover {
+      background-color: transparent;
+	  outline-style: none;
+ }
+
+ .nav-tabs > li > a:focus {
+      background-color: transparent;
+	  color: #AB2525;
+ }
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #AB2525;
+  cursor: default;
+  background-color: transparent;
+  border: none;
+  border-bottom-color: transparent;
+  outline-style: none;
+}
+
+#CoffeeTab .nav-tabs > li{
+    float:none;
+    display:inline-block;    
+}
+
+#CoffeeTab .nav-tabs {
+    text-align:center;
+}
+
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+  z-index: 2;
+  color: #fff;
+  background-color: #AB2525;
+  border-color: #eee;
+ }
+ 
+ .btn-danger {
+  color: #fff;
+  background-color: #AB2525;
+  border-color: #d43f3a;
+  outline-style: none;
+  width : 100px;
+}
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.visited,
+.open .dropdown-toggle.btn-danger {
+  color: #fff;
+  background-color: #d2322d;
+  border-color: #ac2925;
+  outline-style: none;
+}
+
+ .btn-default {
+  color: #fff;
+  background-color: #ccc;
+  border-color: #ccc;
+  outline-style: none;
+}
+
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: #AB2525;
+  border-color: #ac2925;
+  outline-style: none;
+}
+
+.btn-default:hover {
+	color: #fff;
+	background-color: #d2322d;
+	border-color: #ac2925;
+	outline-style: none;
+}
+
+input[type="checkbox"]:focus {
+    outline: none;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+#submitted a:hover {
+    color: #ab2525;
+}
+
+#OrderTab .nav-tabs > li{
+    float:none;
+    display:inline-block;    
+}
+
+#OrderTab .nav-tabs {
+    text-align:center;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+@media (max-width: 767px){
+    .test1 {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left : 0px;
+    }
+}
+
+@media (min-width: 967px) {
+    .test1 {
+        margin-left : 15px;
+        margin-right : 0px;
+    }
+}
+/*
+@media (min-width: 768px) {
+    #test1 {
+        margin-left : 15px;
+    }
+}   */

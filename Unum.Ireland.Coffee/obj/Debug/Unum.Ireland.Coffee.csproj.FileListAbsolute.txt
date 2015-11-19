@@ -1,0 +1,10 @@
+C:\Users\ad514\Documents\Visual Studio 2012\Projects\CoffeeAdminV2\Unum.Ireland.Coffee\bin\Unum.Ireland.Coffee.dll
+C:\Users\ad514\Documents\Visual Studio 2012\Projects\CoffeeAdminV2\Unum.Ireland.Coffee\bin\Unum.Ireland.Coffee.pdb
+C:\Users\ad514\Documents\Visual Studio 2012\Projects\CoffeeAdminV2\Unum.Ireland.Coffee\obj\Debug\Unum.Ireland.Coffee.dll
+C:\Users\ad514\Documents\Visual Studio 2012\Projects\CoffeeAdminV2\Unum.Ireland.Coffee\obj\Debug\Unum.Ireland.Coffee.pdb
+C:\Users\ad514\Documents\Visual Studio 2012\Projects\CoffeeAdminV2\Unum.Ireland.Coffee\obj\Debug\Unum.Ireland.Coffee.csprojResolveAssemblyReference.cache
+C:\Users\adk11\Desktop\CoffeeAdminV2\Unum.Ireland.Coffee\bin\Unum.Ireland.Coffee.dll
+C:\Users\adk11\Desktop\CoffeeAdminV2\Unum.Ireland.Coffee\bin\Unum.Ireland.Coffee.pdb
+C:\Users\adk11\Desktop\CoffeeAdminV2\Unum.Ireland.Coffee\obj\Debug\Unum.Ireland.Coffee.csprojResolveAssemblyReference.cache
+C:\Users\adk11\Desktop\CoffeeAdminV2\Unum.Ireland.Coffee\obj\Debug\Unum.Ireland.Coffee.dll
+C:\Users\adk11\Desktop\CoffeeAdminV2\Unum.Ireland.Coffee\obj\Debug\Unum.Ireland.Coffee.pdb

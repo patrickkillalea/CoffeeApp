@@ -1,0 +1,131 @@
+﻿.nav-tabs > li >a {
+    color: #aaa;
+	outline-style: none;
+ }
+.nav-tabs > li > a:hover {
+      background-color: transparent;
+	  outline-style: none;
+ }
+
+ .nav-tabs > li > a:focus {
+      background-color: transparent;
+	  color: #a94442;
+ }
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #a94442;
+  cursor: default;
+  background-color: transparent;
+  border: none;
+  border-bottom-color: transparent;
+  outline-style: none;
+}
+
+.nav-tabs {
+    text-align:center;
+}
+
+.nav-tabs > li{
+    float:none;
+    display:inline-block;    
+}
+
+a,
+a:hover,
+a:focus {
+    outline-style: none;
+    text-decoration : none;
+}
+
+.jumbotron {
+    background-color : white; 
+    border : 2px double #eee;    
+    margin-top : 15px; 
+}
+
+table, td, th {
+    
+}
+
+th {
+    
+}
+
+td {
+    
+}
+
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+  background-color : #f2dede;
+  font-weight : bold;
+}
+
+.list-group-item-danger {
+  color: #a94442;
+  background-color: #f2dede;
+}
+a.list-group-item-danger {
+  color: #a94442;
+}
+a.list-group-item-danger .list-group-item-heading {
+  color: inherit;
+}
+a.list-group-item-danger:hover,
+a.list-group-item-danger:focus {
+  color: #a94442;
+  background-color: #ebcccc;
+}
+a.list-group-item-danger.active,
+a.list-group-item-danger.active:hover,
+a.list-group-item-danger.active:focus {
+  color: #fff;
+  background-color: #a94442;
+  border-color: #a94442;
+}
+
+ .btn-danger {
+  outline-style: none;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.visited,
+.open .dropdown-toggle.btn-danger {  
+  outline-style: none;
+}
+
+ .btn-success {  
+  outline-style: none;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.visited,
+.open .dropdown-toggle.btn-success {
+  
+  outline-style: none;
+}
+
+ .btn-warning {  
+  outline-style: none;
+  color: #333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.visited,
+.open .dropdown-toggle.btn-warning {  
+  background-color: #f0ad4e;
+  outline-style: none;
+}
+
+.btn-warning:hover {
+    background-color : #f0ad4e;
+}

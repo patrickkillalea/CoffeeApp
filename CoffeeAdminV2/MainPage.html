@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head> 
+        <title>Coffee Admin</title>
+        <meta charset="utf-8"/>
+	    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name = "viewport" content = "width=device-width, inital-scale=1.0"/>
+        
+        <!-- Styles -->
+        <link href = "../css/Bootstrap.css" rel = "stylesheet"/>
+        <link href = "../css/bootstrap-responsive.css" rel = "stylesheet"/>
+        <link href = "../css/styles.css" rel = "stylesheet"/>
+        
+        <!-- Javascript -->
+        <script type = "text/javascript" src = "../js/jquery-1.8.3.js"></script>
+        <script type = "text/javascript" src = "../js/jsCode.js"></script>
+        <script type = "text/javascript" src = "../js/bootstrap.js"></script>
+        <script type = "text/javascript" src = "../js/moment.min.js"></script>     
+        
+    </head> 
+
+    <body>
+        <ul id = "mainTabs" class = "nav nav-tabs" data-tabs = "tabs">
+			<li id = "ordersTab" class = "active"><a href = "#orders" data-toggle = "tab"><h3>Orders</h3></a></li>
+			<li id = "whoTab"><a href = "#who" data-toggle = "tab"><h3>Who</h3></a></li>	                		
+		</ul>
+			
+		<div id = "mainTabsContent" class = "tab-content">                
+			
+			<!-- Orders Tab -->
+			<div class = "tab-pane active" id = "orders">
+                <div class = "tab-pane">					
+                    <div class = "row">
+                        <div class = "col-md-2 col-md-offset-1" style = "margin-top : 15px">
+                            <div id = "ordersMonths" class = "list-group" style = "text-align : center">
+	                            <a id = "Order1" href ="#" class = "list-group-item list-group-item-danger" style = "margin-bottom : 3px">Three Months Ago</a>
+	                            <a id = "Order2" href ="#" class = "list-group-item list-group-item-danger" style = "margin-bottom : 3px">Two Months Ago</a>
+	                            <a id = "Order3" href ="#" class = "list-group-item list-group-item-danger" style = "margin-bottom : 3px">Last Month</a>
+	                            <a id = "Order4" href ="#" class = "list-group-item list-group-item-danger active" style = "margin-bottom : 3px">This Month</a>
+	                            <a id = "Order5" href ="#" class = "list-group-item list-group-item-danger" style = "margin-bottom : 3px">Next Month</a>
+	                            <a id = "Order6" href ="#" class = "list-group-item list-group-item-danger" style = "margin-bottom : 3px">Two Months Time</a>
+	                            <a id = "Order7" href ="#" class = "list-group-item list-group-item-danger" style = "margin-bottom : 3px">Three Months Time</a>
+                            </div>
+                        </div>
+
+                        <div class = "col-md-8 col-md-offset+1">
+                            <div id = "orderStatic" class = "jumbotron">                                
+                                <div id = "orderDiv1"></div>
+                                <div id = "orderDiv2"></div>
+                                <div id = "orderDiv3"></div>
+                                <div id = "orderDiv4"></div>
+                                <div id = "orderDiv5"></div>
+                                <div id = "orderDiv6"></div>
+                                <div id = "orderDiv7"></div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------------------------------------------------------------------->
+
+            <!-- Who Tab -->
+            <div class = "tab-pane" id = "who">
+                <div class = "tab-pane">					
+                    <div class = "row">
+                        <div class = "col-md-2 col-md-offset-1" style = "margin-top : 15px">
+                            <div id = "whoMonths" class = "list-group" style = "text-align : center">
+	                            <a id = "Who1" href = "#" class = "list-group-item list-group-item-danger" style = "margin-bottom : 3px">Three Months Ago</a>
+	                            <a id = "Who2" href = "#" class = "list-group-item list-group-item-danger" style = "margin-bottom : 3px">Two Months Ago</a>
+	                            <a id = "Who3" href = "#" class = "list-group-item list-group-item-danger" style = "margin-bottom : 3px">Last Month</a>
+	                            <a id = "Who4" href = "#" class = "list-group-item list-group-item-danger active" style = "margin-bottom : 3px">This Month</a>
+	                            <a id = "Who5" href = "#" class = "list-group-item list-group-item-danger" style = "margin-bottom : 3px">Next Month</a>
+	                            <a id = "Who6" href = "#" class = "list-group-item list-group-item-danger" style = "margin-bottom : 3px">Two Months Time</a>
+	                            <a id = "Who7" href = "#" class = "list-group-item list-group-item-danger" style = "margin-bottom : 3px">Three Months Time</a>
+                            </div>
+                        </div>
+
+                        <div class = "col-md-8 col-md-offset+1">
+                            <div id = "whoStatic" class = "jumbotron">                                
+                                
+                                <div class = "list-group">
+                                    <div style = "text-align : center">
+                                        <a id = "lall" class = "btn btn-warning active" style = "margin : 3px 3px 3px 3px; width : 150px"">All</a>
+                                        <a id = "lPaid" class = "btn btn-warning" style = "margin : 3px 3px 3px 3px; width : 150px">All Paid</a>
+                                        <a id = "lunPaid" class = "btn btn-warning" style = "margin : 3px 3px 3px 3px; width : 150px">All not Paid</a>
+                                        <a id = "lRec" class = "btn btn-warning" style = "margin : 3px 3px 3px 3px; width : 150px">All Received</a>
+                                        <a id = "lunRec" class = "btn btn-warning" style = "margin : 3px 3px 3px 3px; width : 150px"">All not Received</a>                                                                            
+                                    </div>
+                                </div>
+                                <br/><br/>
+
+                                <div id = "loadingDiv" style = "text-align : center">
+                                    <img src = "../images/loading.gif"/>
+                                </div>
+
+                                <div id = "whoDiv1"></div>
+                                <div id = "whoDiv2"></div>
+                                <div id = "whoDiv3"></div>
+                                <div id = "whoDiv4"></div>
+                                <div id = "whoDiv5"></div>
+                                <div id = "whoDiv6"></div>
+                                <div id = "whoDiv7"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------------------------------------------------------------------->
+
+        </div>         
+    </body>
+
+    <script type = "text/javascript" src = "../js/respond.min.js"></script>
+
+</html>

@@ -1,0 +1,9 @@
+C:\Users\ad514\Desktop\New folder\CoffeeAdminV2 (Versions)\CoffeeAdminV2 (13_06_14)\CoffeeAdminV2\bin\CoffeeAdminV2.dll
+C:\Users\ad514\Desktop\New folder\CoffeeAdminV2 (Versions)\CoffeeAdminV2 (13_06_14)\CoffeeAdminV2\bin\CoffeeAdminV2.pdb
+C:\Users\ad514\Desktop\New folder\CoffeeAdminV2 (Versions)\CoffeeAdminV2 (13_06_14)\CoffeeAdminV2\obj\Debug\CoffeeAdminV2.csprojResolveAssemblyReference.cache
+C:\Users\ad514\Desktop\New folder\CoffeeAdminV2 (Versions)\CoffeeAdminV2 (13_06_14)\CoffeeAdminV2\obj\Debug\CoffeeAdminV2.dll
+C:\Users\ad514\Desktop\New folder\CoffeeAdminV2 (Versions)\CoffeeAdminV2 (13_06_14)\CoffeeAdminV2\obj\Debug\CoffeeAdminV2.pdb
+C:\Users\ad514\Documents\Visual Studio 2012\Projects\CoffeeAdminV2\CoffeeAdminV2\bin\CoffeeAdminV2.dll
+C:\Users\ad514\Documents\Visual Studio 2012\Projects\CoffeeAdminV2\CoffeeAdminV2\bin\CoffeeAdminV2.pdb
+C:\Users\ad514\Documents\Visual Studio 2012\Projects\CoffeeAdminV2\CoffeeAdminV2\obj\Debug\CoffeeAdminV2.dll
+C:\Users\ad514\Documents\Visual Studio 2012\Projects\CoffeeAdminV2\CoffeeAdminV2\obj\Debug\CoffeeAdminV2.pdb

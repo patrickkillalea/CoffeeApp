@@ -1,0 +1,4 @@
+C:\Users\ad514\Documents\Visual Studio 2012\Projects\CoffeeAdminV2\CoffeeAdminV2\bin\CoffeeAdminV2.dll
+C:\Users\ad514\Documents\Visual Studio 2012\Projects\CoffeeAdminV2\CoffeeAdminV2\bin\CoffeeAdminV2.pdb
+C:\Users\ad514\Documents\Visual Studio 2012\Projects\CoffeeAdminV2\CoffeeAdminV2\obj\Release\CoffeeAdminV2.dll
+C:\Users\ad514\Documents\Visual Studio 2012\Projects\CoffeeAdminV2\CoffeeAdminV2\obj\Release\CoffeeAdminV2.pdb
